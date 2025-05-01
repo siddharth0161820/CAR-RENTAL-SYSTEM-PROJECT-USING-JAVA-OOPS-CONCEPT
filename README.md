@@ -1,20 +1,50 @@
-# CAR RENTAL SYSTEM PROJECT USING JAVA OOPS CONCEPT
+# 🚗 Car Rental System – Java OOP Console Project
 
-Nowadays, car renting is the most popular and convenient way for people to travel from one place to another, so let us understand the process for renting a car using a Java-based console application
+This is a Java-based console application that demonstrates the core principles of **Object-Oriented Programming (OOP)** through a simple and practical **Car Rental System**. It simulates how a real-world rental service manages customers, car inventory, and rental transactions — all from a command-line interface.
 
-# FEATURES/OBJECTIVES
+---
 
-This project guides us through crafting a dynamic car rental system in Java, here we understand how to structure classes to enable smooth car rental interactions and calculate the price
-smoothly. 
---->RENT A CAR: The user can easily rent a car through an interactive console.
---->RETURN A CAR: The User can conveniently return the previously rented cars and update the availability.
------> CUSTOMER MANAGEMENT: Can add new customers and can maintain customer records.
-------> CAR MANAGEMENT:  Manage cars, brands, models, and pricing details.
------->RENTAL HISTORY: Maintain track of rentals, customers, and rental time periods.
+## 📌 Features
 
+- 🔁 **Rent a Car** – Users can browse available cars and rent one.
+- 🔄 **Return a Car** – Users can return cars, and the system updates availability.
+- 👤 **Customer Management** – Add and track customer profiles.
+- 🚗 **Car Inventory Management** – Manage car brands, models, and pricing.
+- 📊 **Rental History Tracking** – Maintains records of who rented what and for how long.
+- 🧑‍💼 **Admin Mode (Concept)** – Can be expanded to include separate admin functions like managing cars, reviewing rentals, and analytics.
 
-# FUTURE SCOPE
-This project  supports multiple customers who are renting the same car simultaneously. 
-Implement date-based pricing adjustments. 
- Develop a graphical user interface (GUI) for enhanced user experience.
- THANK YOU
+---
+
+## 🧱 Tech Stack
+
+- **Language**: Java  
+- **IDE**: IntelliJ IDEA / Eclipse / VS Code  
+- **Concepts Used**:
+  - Classes & Objects
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+  - Modular Code Organization
+  - Control Flow, Arrays, and Collections
+
+---
+
+## 📂 Project Structure
+
+| File Name                    | Purpose                                         |
+|-----------------------------|-------------------------------------------------|
+| `Car.java`                  | Car object with brand, model, price, availability status |
+| `Customer.java`             | Customer data class                            |
+| `Rental.java`               | Rental logic for assigning and returning cars  |
+| `CarRentalSystemTesting.java` | Main class (Console Menu and System Logic)  |
+
+---
+
+## 🛠️ How to Run
+
+```bash
+# Compile all Java files
+javac *.java
+
+# Run the main class
+java CarRentalSystemTesting
