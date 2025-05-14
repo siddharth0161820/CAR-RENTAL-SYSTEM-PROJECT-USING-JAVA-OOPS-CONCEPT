@@ -11,7 +11,7 @@ This is a Java-based console application that demonstrates core principles of Ob
 - 👤 Customer Management – Add and track customer profiles, including rental history.
 - 🚗 Car Inventory Management – Manage car brands, models, pricing, and availability.
 - 📊 Rental History Tracking – Keep a record of who rented what and for how long.
-- 🧑‍💼 Admin Mode (Concept) – The system can be expanded to include admin functionalities like managing car inventory, reviewing rental transactions, and providing analytics.
+- 🧑‍💼 Admin Mode (Concept) – The system can be expanded to include admin functionalities, such as managing car inventory, reviewing rental transactions, and providing analytics.
 
 ---
 
@@ -35,10 +35,10 @@ The project is structured as follows:
 
 | File Name                  | Purpose                                                      |
 |----------------------------|--------------------------------------------------------------|
-| Car.java                    | Represents a car object with brand, model, price, and availability. |
-| Customer.java               | Stores customer data (e.g., name, contact, rental history). |
-| Rental.java                 | Contains rental logic for assigning and returning cars.     |
-| CarRentalSystemTesting.java | Main class with console menu and system logic.              |
+| `Car.java`                  | Represents a car object with brand, model, price, and availability. |
+| `Customer.java`             | Stores customer data (e.g., name, contact, rental history).   |
+| `Rental.java`               | Contains rental logic for assigning and returning cars.      |
+| `CarRentalSystemTesting.java` | Main class with console menu and system logic.             |
 
 ---
 
